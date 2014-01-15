@@ -17,5 +17,8 @@ public class importantTweetModel extends lonelyTweetModel {
 	public void setText(String text){
 		this.text = text;
 	}
+	public Boolean isNormal(){
+		return false;
+	}
 
 }
