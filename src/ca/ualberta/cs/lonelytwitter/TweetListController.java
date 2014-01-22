@@ -16,5 +16,20 @@ public class TweetListController {
 		ArrayList<LonelyTweetModel>list = tweetListModel.getList();
 		list.add(lt);
 	}
-
+	
+	public ArrayList<LonelyTweetModel> getList(){
+		return tweetListModel.getList();
+	}
+	
+	public void setList(ArrayList<LonelyTweetModel> list){
+		tweetListModel.setList(list);
+	}
+	
+	public TweetListModel getTweetListModel(){
+		return tweetListModel;
+	}
+	
+	public void setTweetListModel(TweetListModel tlm){
+		tweetListModel = tlm;
+	}
 }

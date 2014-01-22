@@ -30,6 +30,10 @@ public abstract class LonelyTweetModel {
 		this.timestamp = new Date();
 	}
 	
+	public String toString(){
+		return text;
+	}
+	
 	public abstract Boolean isNormal();
 	
 	
